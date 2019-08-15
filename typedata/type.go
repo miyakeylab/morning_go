@@ -2,6 +2,11 @@ package typedata
 
 import "fmt"
 
+type Qdata struct {
+	name string
+	age  int
+}
+
 func Typedata() {
 
 	p := struct {
